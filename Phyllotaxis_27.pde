@@ -8,7 +8,7 @@
 // Modified by Rupert Russell for use with Redbubble 
 // artwork on redbubble at: 
 
-int n =  1800130; // 200010;
+int n =  180013; // 200010;
 float c = 8.5;
 float start = 0;
 float hu ;
@@ -18,7 +18,7 @@ float rrr, ggg, hhh, sss, bbb;
 
 void setup() {
 
-  size(9144, 9144);
+  size(7632, 6480);
   // size(500, 500);
   colorMode(HSB, 255, 255, 255);
   background(0);
@@ -61,8 +61,8 @@ void draw() {
 
     ellipse(x, y, radius, radius);
   }
-  println("Phyllotaxis-27-" + n + "-" + hhh + ".png");
-  save("Phyllotaxis-27-" + n + "-" + hhh + ".png");
+  println("Phyllotaxis-27-7632x6480.png");
+  save("Phyllotaxis-27-7632x6480.png");
   println("saved");
   exit();
 }
